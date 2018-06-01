@@ -39,8 +39,6 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbarStyle="outsideOverlay"
-            android:paddingLeft="@dimen/list_side_margin"
-            android:paddingRight="@dimen/list_side_margin"
             android:paddingBottom="28dp" />
     </android.support.v4.widget.SwipeRefreshLayout>
 
