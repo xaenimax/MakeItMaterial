@@ -115,6 +115,7 @@ public class ArticleDetailFragment extends Fragment implements
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
         //this line shows back button
         ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ((AppCompatActivity)getActivity()).setTitle("");
     }
 
     @Override
